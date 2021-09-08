@@ -10,7 +10,7 @@
 .u-section-1 .u-text-1 {
   font-size: 6rem;
   font-weight: 700;
-  margin: 60px auto 0;
+  margin: 266px auto 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -25,7 +25,9 @@
   text-transform: uppercase;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
   background-image: none;
-  margin: 40px auto 60px;
+  font-size: 1.875rem;
+  margin: 46px auto 60px;
+  padding: 49px 63px 50px 62px;
 }
 
 @media (max-width: 1199px) {
