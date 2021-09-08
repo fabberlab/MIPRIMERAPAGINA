@@ -14,13 +14,17 @@
 }
 
 .u-section-1 .u-text-2 {
+  font-size: 1.875rem;
   margin: 30px auto 0;
 }
 
 .u-section-1 .u-btn-1 {
-  background-image: none;
-  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-style: none;
   font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  background-image: none;
   margin: 40px auto 60px;
 }
 
@@ -85,18 +89,30 @@
   grid-gap: 15px 15px;
 }
 
+.u-section-2 .u-back-slide-1 {
+  transition-duration: 0.5s;
+}
+
 .u-section-2 .u-over-slide-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.05), rgba(0,0,0,0.05));
   padding: 20px;
+}
+
+.u-section-2 .u-back-slide-2 {
+  transition-duration: 0.5s;
 }
 
 .u-section-2 .u-over-slide-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.05), rgba(0,0,0,0.05));
   padding: 20px;
 }
 
+.u-section-2 .u-back-slide-3 {
+  transition-duration: 0.5s;
+}
+
 .u-section-2 .u-over-slide-3 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.05), rgba(0,0,0,0.05));
   padding: 20px;
 }
 
