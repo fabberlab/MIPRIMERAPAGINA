@@ -81,8 +81,8 @@
 }
 
 .u-section-2 .u-gallery-inner-1 {
-  grid-template-columns: repeat(3, auto);
-  grid-gap: 17px;
+  grid-template-columns: auto auto auto;
+  grid-gap: 15px 15px;
 }
 
 .u-section-2 .u-over-slide-1 {
@@ -107,6 +107,10 @@
 
   .u-section-2 .u-gallery-1 {
     height: 349px;
+  }
+
+  .u-section-2 .u-gallery-inner-1 {
+    grid-template-columns: repeat(3, auto);
   }
 }
 
